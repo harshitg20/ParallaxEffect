@@ -19,12 +19,6 @@
     transform-style: preserve-3d;
     z-index: -1;
 }
-.background{
-    transform: translateZ(-40px ) scale(5.1);
-}
-.foreground{
-    transform: translateZ(-20px) scale(3);
-}
 
 .background, .foreground{
     position:absolute;
@@ -33,6 +27,13 @@
     object-fit: cover;
     z-index:-1;
 }
+.background{
+    transform: translateZ(-40px ) scale(5.1);
+}
+.foreground{
+    transform: translateZ(-20px) scale(3);
+}
+
 h1{
     position: absolute;
     top: 5rem;
